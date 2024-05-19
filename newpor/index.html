@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mugni</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icon -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <a href="#" class="logo">mugni.</a>
+        <div class="toggle" onclick='toggleMenu()'></div>
+
+        <!-- menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick='toggleMenu()'>Home</a></li>
+            <li><a href="#about" onclick='toggleMenu()'>About Me</a></li>
+            <li><a href="#services" onclick='toggleMenu()'>Services</a></li>
+            <li><a href="#work" onclick='toggleMenu()'>Portfolio</a></li>
+            <li><a href="#contact" onclick='toggleMenu()'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- main text image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hy, I'm <br>Mugni <span>Hidayat</span><br>Web Developer</h1>
+            <!-- button -->
+            <a href="#">Hire Me</a>
+        </div>
+
+        <!-- home image -->
+        <div class="home-img">
+            <img src="images/newyellow.png" alt="">
+        </div>
+
+        <!-- social -->
+        <div class="social">
+            <a href="https://www.linkedin.com/in/mugni-hidayat-6969a4305/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/hidayatmugni/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/mugnihidayat5"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <!-- Heading -->
+        <div class="heading">
+            <h2>Aboout Me</h2>
+            <p>My Introduction</p>
+        </div>
+        <!-- About Conten -->
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/newyellow.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm Mugni</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam molestias assumenda, soluta magni
+                    eligendi iusto enim aliquam praesentium totam inventore nemo molestiae at labore unde maiores, odio
+                    repudiandae! Maiores quo atque obcaecati est quis cumque! Iste numquam libero praesentium quis!</p>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <!-- heading -->
+        <div class="heading">
+            <h2>Services</h2>
+            <p>Services We Offer,</p>
+        </div>
+        <div class="services-content">
+            <!-- box -->
+            <div class="box">
+                <img src="images/html5.webp" alt="">
+                <h1>HTML Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <img src="images/css.png" alt="">
+                <h1>CSS Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <img src="images/js.png" alt="">
+                <h1>JavaScript Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <img src="images/ux.png" alt="">
+                <h1>UI/UX Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <img src="images/wordpress.png" alt="">
+                <h1>Wordpress Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+            <!-- box -->
+            <div class="box">
+                <img src="images/Tailwind.png" alt="">
+                <h1>Tailwind CSS Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quasi!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work section -->
+    <section id="work">
+        <!-- heading -->
+        <div class="heading">
+            <h2>Work</h2>
+            <p>Work With Us</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>We Belive To Deliver Best <br>Quality Work</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui pariatur commodi! Perspiciatis
+                    consequatur deserunt debitis exercitationem aspernatur dignissimos dicta.</p>
+                <a href="#Contact">Contact Me</a>
+            </div>
+            <div class="work-img">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdvcmt8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave a message we will try to reply in 24 hours.</p>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+                <h1>Connect With Us <br>By Our Apps</h1>
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+                <a href="#"><i class='bx bxl-play-store'></i></a>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Yor E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your Message Here..."></textarea>
+                    <input type="button" value="send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- copyrigth -->
+
+    <div class="copyright">
+        <p>&#169; hidayatMugni All Right Reserved</p>
+    </div>
+
+    <!-- link java script -->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
